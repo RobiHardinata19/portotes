@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --mainColor : #F5F1D4;
+    --SecondColor : #FFBC01;
+    --Ketigawarna : #FDCE5F;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: var(--mainColor);
+    color: rgb(32, 32, 32);
+    /* line-height: 2.5rem; */
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #FFBC01; */
+    padding: 20px;
+    padding-top: 40px;
+    width: 67%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    /* background-color: aliceblue; */
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-weight: 400;
+}
+
+nav ul li a:hover{
+    color: #876BD9;
+    font-weight: 400;
+}
+
+/* Hero */
+#hero{
+    min-height: 100vh;
+    /* background-color: aqua; */
+}
+
+#hero .container{
+    /* background-color: #FFBC01; */
+    width: 67%;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#hero .text{
+    /* background-color: bisque; */
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+#hero h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+#hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+#hero p span{
+    font-weight: 700;
+    color: #876BD9;
+}
+
+#hero .tombol button{
+    margin-top: 30px;
+    background-color: #AFDD09;
+    text-align: center;
+    color: #000;
+    min-width: 125px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+}
+
+#hero img{
+    width: 38%;
+    margin-top: -25px;
+    /* width: 350px; */
+    /* background-color: #876BD9; */
+}
+/* Hero */
+
+/* ABOUT */
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--SecondColor);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding-bottom: 80px;
+    margin-bottom: 80px;
+    margin-top: -80px; */
+}
+
+#about .container{
+    width: 67%;
+    margin: auto;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+
+#about .container h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    /* background-color: #AFDD09; */
+    padding-bottom: 20px;
+}
+
+#about .container .teks{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    background-color: var(--mainColor);
+    width: 60%;
+    border-radius: 17px;
+    border: 3px solid #000;
+}
+
+/* END ABOUT */
+
+
+/* SKILL */
+#skill{
+    background-color: var(--Ketigawarna);
+    min-height: 300px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    /* background-color: #876BD9; */
+}
+
+#skill .container{
+    width: 67%;
+    margin: auto;
+    /* background-color: orange; */
+}
+
+#skill .container h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    /* background-color: #AFDD09; */
+    padding-bottom: 20px;
+}
+
+#skill .aplikasi{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #AFDD09; */
+    flex-wrap: wrap;
+}
+
+#skill .aplikasi img{
+    transform: scale(0.8);
+}
+
+#skill .card{
+    display: flex;
+    /* background-color: var(--mainColor); */
+    /* background-color: #DE5658; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#skill .card .kartu{
+    background-color: var(--mainColor);
+    padding-top: 15px;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    color: #876BD9;
+    border: 3px solid #000;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+/* END SKILL */
+
+/* GALERY */
+
+#galery{
+    background-color: var(--SecondColor);
+    min-height: 300px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+#galery .container{
+    width: 67%;
+    margin: auto;
+    /* background-color: #876BD9; */
+}
+
+#galery .container h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+} 
+
+#galery .gambar{
+    padding-top: 15px;
+    display: flex;
+    /* background-color: #AFDD09; */
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* END GALERY */
+
+/* FOOTER */
+#footer{
+    background-color: var(--mainColor);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+#footer .container{
+    width: 67%;
+    margin: auto;
+    /* background-color: #AFDD09; */
+} 
+
+#footer .container .foto{
+    margin: auto;
+    /* background-color: #876BD9; */
+    text-align: center;
+    color: #DE5658;
+    padding-bottom: 40px;
+;
+}
+
+#footer .media{
+    /* background-color: #FFBC01; */
+    text-align: center;
+}
+#footer .media .medsos a{
+    text-decoration: none;
+}
+
+/* END FOOTER */
+
+/* RESPONSIVE */
+
+/* RES 1 */
+@media (max-width : 745px){
+    #galery .gambar{
+        transform: scale(.8);
+        margin-top: -50px;
+    }
+
+    #galery .container{
+        width: 80%;
+    }
+    #hero .container{
+        flex-direction: column;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+
+    #hero img{
+        order: -3;
+        width: 80%;
+        /* margin-top: 100px; */
+        margin: auto;
+        
+    }
+
+    #hero .teks{
+        order: 1;
+    }
+    #skill .container{
+        width: 80%;
+    }
+    #galery .container{
+        width: 80%;
+    }
+
+    #skill .aplikasi{
+        justify-content: center;
+    }
+
+}
+/* RES 1 */
+
+/* RES 2 */
+@media (max-width : 1075px){
+    #galery .gambar{
+        transform: scale(.8);
+        margin-top: -50px;
+    }
+
+    #galery .container{
+        width: 80%;
+    }
+    #hero .container{
+        width: 80%;
+        /* padding-top: 80px; */
+    }
+    #skill .container{
+        width: 80%;
+    }
+    #galery .container{
+        width: 80%;
+    }
+
+    #skill .aplikasi{
+        justify-content: center;
+    }
+
+}
+/* RES 2 */
+
+/* RES 3 */
+@media (max-width : 375px){
+    #skill .aplikasi{
+        justify-content: center;
+    }
+
+    #skill .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #about .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #galery .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #hero .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #hero img{
+        order: -3;
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    #hero .teks{
+        order: 1;
+    }
+
+}
+/* RES 3 */
